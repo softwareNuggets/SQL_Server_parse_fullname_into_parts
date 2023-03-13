@@ -1,0 +1,8 @@
+	select * from fn_split_fullname('Doe Jr, John W')
+	select * from fn_split_fullname('Doe, John W')
+	select * from fn_split_fullname('Doe Joe, John W')
+	select * from fn_split_fullname('Doe Joe,         John             W     ')
+	select * from fn_split_fullname('Doe          III         ,         John             W     ')
+	select * from fn_split_fullname('D,J')
+	select * from fn_split_fullname('D, J')
+	select * from fn_split_fullname('D iv, J k')
